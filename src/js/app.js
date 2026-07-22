@@ -53,6 +53,15 @@ function addStudent(name, age, grade) {
 }
 
 // ============================================
+// Function Declaration - Clear Inputs
+// ============================================
+function clearInputs() {
+    document.getElementById("studentName").value = "";
+    document.getElementById("studentAge").value = "";
+    document.getElementById("studentGrade").value = "";
+}
+
+// ============================================
 // Function Expression - Show Students
 // ============================================
 var showStudents = function () {
