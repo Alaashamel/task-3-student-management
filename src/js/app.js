@@ -49,7 +49,15 @@ function addStudent(name, age, grade) {
         grade: parseFloat(grade)
     };
     students.push(student);
+    updateStudentCount();
     alert("Student added successfully!");
+}
+
+// ============================================
+// Function Declaration - Update Student Count
+// ============================================
+function updateStudentCount() {
+    document.getElementById("studentCount").textContent = "Total Students: " + students.length;
 }
 
 // ============================================

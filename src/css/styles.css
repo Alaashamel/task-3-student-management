@@ -97,6 +97,12 @@ button:disabled {
     cursor: not-allowed;
 }
 
+#studentCount {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
 #output {
     background-color: #f8f9fa;
     padding: 15px;
