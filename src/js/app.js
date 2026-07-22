@@ -69,6 +69,18 @@ function getStudentCount() {
 }
 
 // ============================================
+// Function Declaration - Find Student by Name
+// ============================================
+function findStudentByName(name) {
+    for (var i = 0; i < students.length; i++) {
+        if (students[i].name.toLowerCase() === name.toLowerCase()) {
+            return students[i];
+        }
+    }
+    return null;
+}
+
+// ============================================
 // Function Expression - Show Students
 // ============================================
 var showStudents = function () {
