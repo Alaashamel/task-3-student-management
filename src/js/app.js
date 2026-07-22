@@ -1,5 +1,13 @@
-// Task 3 - Student Management System
-// Student Management System using HTML + JavaScript
+/**
+ * Task 3 - Student Management System
+ * A simple system to manage student records using HTML + JavaScript
+ * 
+ * Features:
+ * - Add Student
+ * - Show Students
+ * - Search Student by Name or Grade
+ * - Delete Student
+ */
 
 // ============================================
 // Global Variable (Scope Task)
