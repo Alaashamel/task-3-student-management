@@ -8,7 +8,7 @@ A simple Student Management System built with HTML and JavaScript.
 - Show all students in console
 - Search students by Name or Grade
 - Delete students
-- Login system (Bonus)
+- Input validation
 
 ## Project Structure
 
@@ -36,3 +36,18 @@ task-3-student-management/
 - Loops (for, while, do...while)
 - Browser Objects (console.log, alert, document.write)
 - Switch statements
+- Input Validation
+
+## Functions
+
+| Function | Type | Description |
+|----------|------|-------------|
+| addStudent() | Declaration | Adds a new student |
+| showStudents() | Expression | Displays all students |
+| searchStudent() | Declaration | Searches by name or grade |
+| deleteStudent() | Expression | Removes a student |
+| clearInputs() | Declaration | Clears form fields |
+| getStudentCount() | Declaration | Returns total students |
+| findStudentByName() | Declaration | Finds student by name |
+| scopeDemo() | Declaration | Demonstrates scope |
+| loopsDemo() | Declaration | Demonstrates loops |
