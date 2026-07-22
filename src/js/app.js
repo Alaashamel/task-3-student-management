@@ -89,6 +89,18 @@ function findStudentByName(name) {
 }
 
 // ============================================
+// Function Declaration - Reset All Students
+// ============================================
+function resetAllStudents() {
+    if (confirm("Are you sure you want to delete all students?")) {
+        students = [];
+        updateStudentCount();
+        document.getElementById("output").textContent = "";
+        alert("All students deleted!");
+    }
+}
+
+// ============================================
 // Function Expression - Show Students
 // ============================================
 var showStudents = function () {
