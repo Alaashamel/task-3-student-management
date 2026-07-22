@@ -100,3 +100,17 @@ button:disabled {
     font-family: monospace;
     white-space: pre-wrap;
 }
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    .button-group {
+        flex-direction: column;
+    }
+
+    button {
+        width: 100%;
+    }
+}
