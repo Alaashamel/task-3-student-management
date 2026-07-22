@@ -30,10 +30,23 @@ var students = [];
 // Function Declaration - Add Student
 // ============================================
 function addStudent(name, age, grade) {
+    if (!name || name.trim() === "") {
+        alert("Please enter a valid name!");
+        return;
+    }
+    if (isNaN(age) || age <= 0) {
+        alert("Please enter a valid age!");
+        return;
+    }
+    if (isNaN(grade) || grade < 0 || grade > 100) {
+        alert("Please enter a valid grade (0-100)!");
+        return;
+    }
+
     var student = {
-        name: name,
-        age: age,
-        grade: grade
+        name: name.trim(),
+        age: parseInt(age),
+        grade: parseFloat(grade)
     };
     students.push(student);
     alert("Student added successfully!");
