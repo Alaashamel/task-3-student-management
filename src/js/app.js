@@ -253,3 +253,12 @@ document.getElementById("deleteStudentBtn").addEventListener("click", function (
 // ============================================
 console.log("Page loaded successfully!");
 document.write("<script>console.log('Document Write executed')</script>");
+
+// ============================================
+// Keyboard Shortcuts
+// ============================================
+document.addEventListener("keydown", function (e) {
+    if (e.ctrlKey && e.key === "Enter") {
+        document.getElementById("addStudentBtn").click();
+    }
+});
