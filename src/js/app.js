@@ -62,6 +62,13 @@ function clearInputs() {
 }
 
 // ============================================
+// Function Declaration - Get Student Count
+// ============================================
+function getStudentCount() {
+    return students.length;
+}
+
+// ============================================
 // Function Expression - Show Students
 // ============================================
 var showStudents = function () {
