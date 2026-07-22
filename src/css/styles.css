@@ -83,6 +83,15 @@ button:hover {
     background-color: #0056b3;
 }
 
+button:active {
+    transform: scale(0.98);
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
 #output {
     background-color: #f8f9fa;
     padding: 15px;
