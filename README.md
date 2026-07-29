@@ -1,5 +1,8 @@
 # Task 3 - Student Management System
 
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Language](https://img.shields.io/badge/language-JavaScript-informational.svg) ![Last Commit](https://img.shields.io/github/last-commit/Alaashamel/task-3-student-management)
+
+
 A simple Student Management System built with HTML and JavaScript.
 
 ## Features
